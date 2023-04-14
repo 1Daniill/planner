@@ -1,0 +1,246 @@
+.rounded-img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    margin: auto;
+    vertical-align: super;
+    width: 100%;
+}
+
+.rounded-img1 {
+    width: 42%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    padding: 0.15em;
+}
+
+.text-1 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.21rem;
+    opacity: 0.6;
+    background: rgb(248, 248, 248);
+    padding: 0.1px;
+}
+
+.text-heavy {
+    font-weight: 650;
+}
+
+.text-standart {
+    color: black;
+    font-weight: 500;
+    font-size: 1.11rem;
+    opacity: 0.6;
+    background: rgb(255, 255, 255);
+    padding: 0.1px;
+}
+
+.color-back {
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.main-task {
+    align-content: center;
+    margin: auto;
+    width: 400px;
+    rowspan = "2"
+}
+
+.everyday-task {
+    margin: auto;
+    align-content: center;
+    width: 250px;
+    text-align: left;
+}
+
+
+table {
+    background-color: rgba(211, 211, 211, 0.7);
+    text-align: center;
+    border: 4px double black;
+    margin: auto;
+    min-height: 70px;
+}
+
+
+td {
+    border: 1px solid black;
+}
+
+.reminders {
+    margin: auto;
+    width: 400px;
+
+}
+
+.calendar {
+    width: 100px;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.count {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.clock {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    position: relative;
+    font-size: 200px;
+    overflow: hidden;
+    height: 1em;
+    width: 1em;
+}
+
+
+.first_clo {
+    left: 4.3px;
+    z-index: 1;
+}
+
+.second_clo {
+    left: 8.3px;
+    z-index: 1;
+}
+
+
+
+
+.clock:before{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.clock .hour,
+.clock .min,
+.clock .sec{
+    position: absolute;
+}
+
+.clock .hour, .hr1{
+    width: 160px;
+    height: 160px;
+}
+.clock .min, .mn1{
+    width: 190px;
+    height: 190px;
+}
+.clock .sec, .sc1{
+    width: 200px;
+    height: 200px;
+}
+
+.clock .hour, .hr2{
+    width: 160px;
+    height: 160px;
+}
+.clock .min, .mn2{
+    width: 190px;
+    height: 190px;
+}
+.clock .sec, .sc2{
+    width: 200px;
+    height: 200px;
+}
+
+.hr1, .mn1, .sc1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.hr2, .mn2, .sc2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.hr1:before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background-color: #ffffff;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+.mn1:before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background-color: #fff;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+.sc1:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 140px;
+    background-color: #f60000;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
+
+
+.hr2:before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background-color: #ffffff;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+.mn2:before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background-color: #fff;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+.sc2:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 140px;
+    background-color: #f60000;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
+
+
+
+
+BODY {
+    background: url(http://study/planner/back-light.jpg) fixed;
+    background-size: 100%;
+}
+
