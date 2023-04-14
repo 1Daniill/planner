@@ -106,7 +106,7 @@ require_once "script/get_script.php";
     </div>
     <div class="btn-group dropstart " style="margin-right: 20px; ">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Личный кабинет
+            Кабинет директора пляжа
         </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="http://study/planner/test3.php">Войти</a></li>
